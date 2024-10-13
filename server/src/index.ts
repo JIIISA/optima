@@ -24,7 +24,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cors());
 
 /* ROUTES */
-app.get("/", (req, res) => {
+app.get("/", (_req, res) => {
   res.send("This is home route");
 });
 
